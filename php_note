@@ -1,0 +1,41 @@
+PHP笔记
+
+
+
+1、<?PHP....................?>  开头结尾
+2、变量声明$
+3、调用全局变量global    直接调用使用$GLOBALS[index]
+4、局部变量重复使用static声明
+5、Echo可以输出多个字符串，print只能输出一个字符串；echo没有返回值，print有返回值1；echo输出速度比print快
+6、Var_dump()输出数据类型
+7、数组排序
+sort() - 对数组进行升序排列
+rsort() - 对数组进行降序排列
+asort() - 根据关联数组的值，对数组进行升序排列
+ksort() - 根据关联数组的键，对数组进行升序排列
+arsort() - 根据关联数组的值，对数组进行降序排列
+krsort() - 根据关联数组的键，对数组进行降序排列
+8、超级全局变量
+$GLOBALS     包含了全部变量的全局组合数组
+$_SERVER     包含了诸如头信息(header)、路径(path)、以及脚本位置(script locations)等等信息的数组，这个数组中的项目由 Web 服务器创建。
+$_REQUEST   收集HTML表单提交的数据，实例：输入字段input，提交按钮submit,表单form
+$_POST      在HTML form标签的指定该属性："method="post"。
+$_GET       在HTML form标签的指定该属性："method="get"。$_GET 也可以收集URL中发送的数据。
+$_FILES
+$_ENV
+$_COOKIE
+$_SESSION
+9、循环语句
+while - 只要指定的条件成立，则循环执行代码块
+do...while - 首先执行一次代码块，然后在指定的条件成立时重复这个循环
+for - 循环执行代码块指定的次数
+foreach - 根据数组中每个元素来循环代码块
+10、函数的调用
+function functionName()
+{
+要执行的代码;
+}
+
+
+
+
