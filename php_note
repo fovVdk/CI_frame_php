@@ -35,7 +35,8 @@ function functionName()
 {
 要执行的代码;
 }
-
+11、Defined（name） 检查name是否存在
+12.Exit（） 输出一条信息 退出当前脚本
 
 
 
